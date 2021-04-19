@@ -1,0 +1,15 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* organizar dos seletores mais amplos para os mais especificos */
+h1{
+    color: black;
+    text-align: center;
+}
+hr{
+    border: black 5px solid;
+}
