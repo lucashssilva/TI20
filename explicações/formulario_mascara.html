@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- nosso js -->
+    <script src="assets/js/script.js"></script>
+</head>
+<body>
+    <form action="">
+        <p>Digite somente os números</p>
+        <!-- onblur = quando perde o foco = cursor piscando -->
+        <input type="text" id="cpf" placeholder="cpf" maxlength="11" onblur="fCpf();" autocomplete="off">
+        <br><br>
+        <input type="text" id="cep" placeholder="cep" maxlength="8"  onblur="fCep();" autocomplete="off">
+        <br><br>
+        <label for="number">Países</label> 
+               <select name="paises" id="nr">
+               
+               <option value="+55">Brasil</option>
+               <option value="+66">Espanha</option>
+               
+            </select>
+        <input type="text" id="telefone" placeholder="telefone" maxlength="11"  onblur="fTelefone();" autocomplete="off">
+        <!-- (11) 99999-9999 
+        no banco de dados reservar: 15 -->
+        <br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,83 @@
+/* reset da página */
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: 100%;        
+}
+
+.nav-item {
+    padding-right: 3.5vw;
+}
+
+.h3{
+    text-align: center;
+    margin-top: 8vw;
+}
+
+.nav-h3{
+    color: #153541;
+    
+}
+
+.input{
+    display: block;
+    margin-top: 4vw;
+    border: 1px solid green;
+    border-radius: 4px;
+    text-align: center;
+    width: 25vw;
+    height: 3vw;
+    outline-color: green;
+}
+
+.nav-input{
+    padding-left: 29.5vw;
+}
+
+.btn-dropdown{
+    margin-top: 4vw;
+}
+
+.btnpadding{
+    width: 25vw;
+    height: 3vw;
+
+}
+
+.botao-color{
+    background-color: white;
+    width: 25vw;
+    height: 3vw;
+    border-color: green;
+}
+
+.btndois{
+    margin-top: 3vw;
+    width: 25vw;
+    height: 3vw;
+}
+
+.caixa-de-texto{
+    display: block;
+    margin-top: 4vw;
+    outline-color: green;
+    border-radius: 4px;
+    width: 25vw;
+    height: 5vw;
+    border-color: green;
+}
+
+.btn-enviar{
+    display: block;
+    margin-top: 4vw;
+    outline-color: green;
+    border-color: green;
+    border-radius: 4px;
+    width: 25vw;
+    height: 3vw;
+}
